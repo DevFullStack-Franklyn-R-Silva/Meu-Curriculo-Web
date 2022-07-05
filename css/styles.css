@@ -17,7 +17,7 @@
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #bd5d38;
+  --bs-orange: #78a890;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #bd5d38;
+  --bs-primary: #78a890;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -42,8 +42,10 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 9, 43, 90;
+  /* muda a cor de todos */
+  --bs-secondary-rgb: 9, 115, 138;
+  /* muda a cor de todos */
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -269,7 +271,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #78a890;
   text-decoration: underline;
 }
 
@@ -2645,8 +2647,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -2658,8 +2660,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type=checkbox]:indeterminate {
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -2750,7 +2752,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #bd5d38;
+  background-color: #78a890;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2783,7 +2785,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #bd5d38;
+  background-color: #78a890;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3269,8 +3271,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
 }
 
 .btn-primary:hover {
@@ -3308,8 +3310,8 @@ fieldset:disabled .btn {
 .btn-primary:disabled,
 .btn-primary.disabled {
   color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
 }
 
 .btn-secondary {
@@ -3628,14 +3630,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #bd5d38;
-  border-color: #bd5d38;
+  color: #78a890;
+  border-color: #78a890;
 }
 
 .btn-outline-primary:hover {
   color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
 }
 
 .btn-check:focus+.btn-outline-primary,
@@ -3649,8 +3651,8 @@ fieldset:disabled .btn {
 .btn-outline-primary.active,
 .btn-outline-primary.dropdown-toggle.show {
   color: #000;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
 }
 
 .btn-check:checked+.btn-outline-primary:focus,
@@ -3663,7 +3665,7 @@ fieldset:disabled .btn {
 
 .btn-outline-primary:disabled,
 .btn-outline-primary.disabled {
-  color: #bd5d38;
+  color: #78a890;
   background-color: transparent;
 }
 
@@ -3949,7 +3951,7 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 400;
-  color: #bd5d38;
+  color: #78a890;
   text-decoration: underline;
 }
 
@@ -4302,7 +4304,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #bd5d38;
+  background-color: #78a890;
 }
 
 .dropdown-item.disabled,
@@ -4350,7 +4352,7 @@ fieldset:disabled .btn {
 .dropdown-menu-dark .dropdown-item.active,
 .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #78a890;
 }
 
 .dropdown-menu-dark .dropdown-item.disabled,
@@ -4492,7 +4494,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #bd5d38;
+  color: #78a890;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4560,7 +4562,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #78a890;
 }
 
 .nav-fill>.nav-link,
@@ -5497,7 +5499,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #bd5d38;
+  color: #78a890;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -5532,8 +5534,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
 }
 
 .page-item.disabled .page-link {
@@ -5746,7 +5748,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #bd5d38;
+  background-color: #78a890;
   transition: width 0.6s ease;
 }
 
@@ -5840,8 +5842,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #78a890;
+  border-color: #78a890;
 }
 
 .list-group-item+.list-group-item {
@@ -7357,7 +7359,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-  color: #bd5d38;
+  color: #78a890;
 }
 
 .link-primary:hover,
@@ -7833,7 +7835,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-  border-color: #bd5d38 !important;
+  border-color: #78a890 !important;
 }
 
 .border-secondary {
@@ -12365,7 +12367,7 @@ p.lead {
 }
 
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #78a890;
 }
 
 .dev-icons {
