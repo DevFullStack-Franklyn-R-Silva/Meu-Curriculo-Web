@@ -17,10 +17,18 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/mystyle.css" rel="stylesheet" />
 
 </head>
 
 <body id="page-top">
+
+    <!-- fab -->
+    <div class="icon-whatsapp p-2 ">
+        <a class="social-icon icon-fab" href="https://api.whatsapp.com/send?phone=82999915558"><i
+                class="fab fa-whatsapp"></i></a>
+    </div>
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -51,8 +59,11 @@
                     Franklyn
                     <span class="text-primary">Roberto</span>
                 </h1>
-                <div class="subheading mb-5">
-                    Rua Benevaldo Lisboa dos Santos · CEP 57308-750 · (82) 99991-5558 ·
+                <div class="subheading mb-5"><a
+                        href="https://www.google.com/maps/search/?api=1&query=Rua Benevaldo Planalto Arapiraca AL">
+                        Rua Benevaldo, 222 - Planalto, Arapiraca - AL
+                    </a>
+                    · (82) 99991-5558 ·
                     <a href="mailto:franklyn.silva@arapiraca.ufal.br">franklyn.silva@arapiraca.ufal.br</a>
                 </div>
                 <p class="lead mb-5">Acredito que a busca por conhecimento e melhoria continua devem fazer parte do
@@ -181,7 +192,8 @@
         <section class="resume-section" id="interests">
             <div class="resume-section-content">
                 <h2 data-aos="fade-right" class="mb-5">Interesses</h2>
-                <p data-aos="fade-left">Me esforço para entregar um material de programação rico e prático. Para que todos tenham a
+                <p data-aos="fade-left">Me esforço para entregar um material de programação rico e prático. Para que
+                    todos tenham a
                     oportunidade de serem programadores incríveis.</p>
                 <p data-aos="fade-left" class="mb-0">Tocar instrumentos musicais </p>
                 <p data-aos="fade-left" class="mb-0">Línguas estrangeiras (Inglês)</p>
@@ -458,7 +470,10 @@
     <script src="js/scripts.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            disable: 'mobile'
+        }
+        );
     </script>
 </body>
 
