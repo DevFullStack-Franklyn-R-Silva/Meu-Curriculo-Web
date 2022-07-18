@@ -1,3 +1,13 @@
-language: node_js
-node_js:
-    - "16.14.0"
+- name: Franklyn Roberto
+- job: DevOps Enginer
+- instagram: franklyn_r.s
+- skills:
+      - Github
+      - NodeJS
+      - JavaScript
+      - Java
+      - Python
+      - Html
+      - React
+      - Css
+      - Springboot
