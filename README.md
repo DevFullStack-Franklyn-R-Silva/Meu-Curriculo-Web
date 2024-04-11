@@ -8,6 +8,7 @@
 
 - **Github:** [DevFullStack-Franklyn-R-Silva](https://github.com/DevFullStack-Franklyn-R-Silva)
 - **LinkedIn:** [Franklyn Roberto Dev](https://www.linkedin.com/in/franklyn-roberto-dev/)
+- **Currículo Online:** [Currículo](https://meu-curriculo-franklyn-roberto.netlify.app/)
 - **E-mail:** franklyn.silva@arapiraca.ufal.br
 - **Fone:** (82) – 9 9991 - 5558
 - **Cidade:** Arapiraca – AL. **Cep:** 57308-750
